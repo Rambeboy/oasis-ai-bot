@@ -4,6 +4,6 @@ providers.txt
 tokens.txt
 proxy.txt
 package-lock.json
-autoreff.js
 register.js
 emails.txt
+accountsReff.txt
