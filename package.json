@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app/index.js",
     "setup": "node app/setup.js",
-    "autoreff": "node config/autoreff.js"
+    "autoreff": "node app/autoreff.js"
   },
   "author": "Rambeboy",
   "license": "MIT",
