@@ -7,6 +7,7 @@ AI inference powered by distributed compute.
 
 ![Banner](assets/image.png)
 
+- **Automated Referral**
 - **Register/Login Accounts**
 - **Auto Create Providers**
 - **Auto Send Heartbeat**
@@ -70,6 +71,11 @@ so if you want create multiple providers you need to put multiple proxy there.
    ```bash
    npm run start
    ```
+
+9. Additional feature auto referral:
+    ```bash
+    npm run autoreff
+    ```
 
 ## LICENSE
 
