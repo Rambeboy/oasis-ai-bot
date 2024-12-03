@@ -140,9 +140,9 @@ async function saveAccountToFile(email, password) {
 async function main() {
     try {
         showBanner()
-        const proxies = await readProxies('proxy.txt');
+        const proxies = await readProxies('proxy_list.js');
         if (proxies.length === 0) {
-            throw new Error('No proxies available in proxy.txt');
+            throw new Error('No proxies available in proxy_list.js');
         }
         const referralCode = await rl.question("Enter Your Referral code: ");
         const numAccounts = await rl.question("How many accounts do you want to create: ");
